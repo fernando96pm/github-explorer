@@ -1,4 +1,4 @@
-# GitHub explorer. Fernando Paños Mancebo.
+# GitHub explorer
 
 ## Funcionalidad
 La aplicación solicita un nombre de usuario y un repositorio, y realiza la búsqueda de las Issues asociadas, además de los datos del usuario y del repositorio. Haciendo uso de React Router se puede navegar por las diferentes secciones a través de los enlaces del menú lateral desplegable.
