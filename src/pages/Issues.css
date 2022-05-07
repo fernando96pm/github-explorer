@@ -1,0 +1,26 @@
+/* Diseño para los botones de paginación.*/
+.page-button {
+    margin: 0px 6px;  
+    background-color: rgba(31, 29, 29, 0.9); 
+    border:solid 0.001px rgba(31, 29, 29, 0.6);
+    font: inherit;
+    color: white;
+    padding: 0.2rem 0.8rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.page-button:hover,
+.page-button:active {
+        background-color: #1f6fb5;
+  }
+.page-button:disabled,
+.page-button:disabled:hover,
+.page-button:disabled:active {
+        background-color: #ccc;
+        color:#3f3f3f;
+        border-color: #ccc;
+        cursor: not-allowed;
+  }
+  .actions > p {
+    font-weight: bold;
+  }

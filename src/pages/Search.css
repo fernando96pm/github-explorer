@@ -1,0 +1,87 @@
+.container {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+}
+.form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control input,
+  .form-control label {
+    display: block;
+  }
+  
+  .form-control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control input:focus {
+    outline: none;
+    border-color: #1f6fb5;
+    background-color: #e0d4fd;
+  }
+  
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .control-group .form-control {
+    min-width: 15rem;
+    flex: 1;
+  }
+  
+  button {
+    font: inherit;
+    background-color: #1f6fb5;
+    color: white;
+    border: 1px solid #1f6fb5;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover,
+  button:active {
+    background-color: #1f6fb5;
+    border-color: #1f6fb5;
+  }
+  button:disabled,
+  button:disabled:hover,
+  button:disabled:active {
+    background-color: #ccc;
+    color:#3f3f3f;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .form-actions {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .form-actions button {
+    margin-left: 1rem;
+  }
+  
+  .invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  
+  .invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+  }
+  
+  .error-text {
+    color: #b40e0e;
+  }
